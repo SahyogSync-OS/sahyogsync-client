@@ -1,85 +1,136 @@
-# Sahyog Sync — Powering Collective Compassion
+# 🤝 SahyogSync Client
 
-Sahyog Sync is a community-first digital ecosystem designed to bridge the critical gap between resource donors and the non-profit organizations (NGOs) that operate on the front lines of social impact. By providing a centralized, transparent platform, Sahyog Sync empowers local groups and volunteers to solve community challenges faster and more effectively.
+> AI-powered frontend platform for NGO coordination, volunteer management, and social impact operations.
 
----
-
-## 🌟 Vision & Impact
-
-In times of crisis or community need, the bottleneck is rarely a lack of willingness to help, but rather a lack of coordination. Sahyog Sync acts as the "operating system" for local compassion, ensuring that food, medicine, and manpower reach the right hands at the right time.
-
-- **Transparency First**: Every kit shared and every hour volunteered is tracked, ensuring accountability.
-- **Language for All**: We use human-centric language, stripping away technical jargon to make the platform accessible to everyone.
-- **Premium Experience**: Helping others is a noble task; we believe the tools used for it should be beautiful, fast, and reliable.
+![React](https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react)
+![Vite](https://img.shields.io/badge/Vite-Frontend_Framework-purple?style=for-the-badge&logo=vite)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-Styling-38BDF8?style=for-the-badge&logo=tailwindcss)
+![Framer Motion](https://img.shields.io/badge/Animations-Framer_Motion-black?style=for-the-badge&logo=framer)
+![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
 ---
 
-## 🚀 Key Features
+## 🌍 Overview
 
-### 🏢 For NGOs (The Coordinators)
-- **Centralized Dashboard**: A bird's-eye view of all operations, active needs, and volunteer status.
-- **Inventory Management**: Track medicines, kits, and meals in real-time. Never run out of essentials.
-- **Campaign Creation**: Launch specific aid campaigns with targeted goals and requirements.
-- **Volunteer Coordination**: Review, approve, and assign tasks to local "Heroes."
-- **Marketplace Alerts**: Get real-time notifications about available resources or urgent needs from other organizations.
+SahyogSync is a community-first digital ecosystem designed to bridge the gap between donors, NGOs, and volunteers through intelligent coordination systems.
 
-### 🦸 For Volunteers (The Heroes)
-- **Simple Onboarding**: Join the movement in seconds with a streamlined registration flow.
-- **Task Discovery**: Find local projects that match your skills (Medical, Logistics, Support).
-- **Impact Tracking**: See how your contributions directly help your community.
+The frontend platform provides:
+- Real-time NGO operations dashboard
+- Volunteer coordination workflows
+- Campaign management interfaces
+- Smart inventory visualization
+- Public impact monitoring systems
 
-### 📊 For the Public
-- **Live Impact Insights**: Real-time data on registered NGOs, active volunteers, and completed missions.
-- **Verified Directory**: A trustworthy list of local organizations and their current activities.
+Built with a modern UI architecture focused on speed, accessibility, and scalability.
+
+---
+
+## ✨ Core Features
+
+### 🏢 NGO Operations Dashboard
+- Centralized operational control
+- Real-time inventory monitoring
+- Campaign creation & management
+- Volunteer approval workflows
+- Marketplace-style resource alerts
+
+### 🦸 Volunteer Portal
+- Simplified onboarding experience
+- Skill-based task discovery
+- Live mission tracking
+- Community contribution insights
+
+### 📊 Public Impact System
+- Real-time operational statistics
+- Verified NGO directory
+- Community impact visualization
+- Transparency-focused analytics
+
+### 🗺️ Smart Geospatial Interface
+- Interactive maps powered by Leaflet
+- NGO location visualization
+- Community need tracking
+- Resource proximity insights
+
+---
+
+## 🎨 Frontend Architecture
+
+### UI Infrastructure
+- React 19 component architecture
+- Vite-powered development environment
+- Responsive TailwindCSS design system
+- Framer Motion transitions & animations
+
+### State & API Management
+- React hooks & context
+- Axios centralized API communication
+- Secure request interceptors
+- Modular service architecture
+
+### User Experience
+- Mobile-first responsive layouts
+- Smooth animations & transitions
+- Accessibility-focused interactions
+- Real-time operational feedback
 
 ---
 
 ## 🛠️ Technology Stack
 
-Sahyog Sync is built with a modern, high-performance stack to ensure speed and reliability:
-
-- **Frontend Core**: [React 19](https://react.dev/) + [Vite 8](https://vitejs.dev/)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/) for custom, responsive designs.
-- **Animations**: [Framer Motion](https://www.framer.com/motion/) for fluid, premium transitions.
-- **Mapping**: [Leaflet](https://leafletjs.com/) for visualizing community needs and NGO locations.
-- **State Management**: Built-in React hooks and context for lightweight, efficient state.
-- **API Communication**: [Axios](https://axios-http.com/) with centralized interceptors for secure requests.
+| Layer | Technology |
+|------|-------------|
+| Frontend | React 19 + Vite |
+| Styling | Tailwind CSS |
+| Animations | Framer Motion |
+| Mapping | Leaflet |
+| API Client | Axios |
+| State Management | React Hooks & Context |
+| Deployment | Vercel |
 
 ---
 
-## 💻 Getting Started
+## 🚀 Getting Started
 
-Follow these steps to get the Sahyog Sync frontend running on your local machine.
+### Clone Repository
 
-### Prerequisites
-- [Node.js](https://nodejs.org/) (Version 18.0 or higher recommended)
-- [npm](https://www.npmjs.com/) (comes with Node.js)
+```bash
+git clone https://github.com/SahyogSync-OS/sahyogsync-client.git
+cd sahyogsync-client
+```
 
-### Installation
+### Install Dependencies
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/SahyogSync-OS/sahyogsync-client.git
-   cd sahyogsync-client
-   ```
+```bash
+npm install
+```
 
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
+### Start Development Server
 
-3. **Run the development server**
-   ```bash
-   npm run dev
-   ```
+```bash
+npm run dev
+```
 
-4. **Access the application**
-   Open [http://localhost:5173](http://localhost:5173) in your browser.
+### Open Application
 
-### Configuration
-The application is designed to connect to the Sahyog Sync Server. By default, it looks for the backend API at `http://localhost:8005/api/`. 
+```bash
+http://localhost:5173
+```
 
-For developers looking to run the full stack locally, the official backend repository can be found here: [sahyogsync-server](https://github.com/SahyogSync-OS/sahyogsync-server.git).
+---
+
+## ⚙️ Backend Integration
+
+The frontend communicates with the SahyogSync backend infrastructure.
+
+Default API endpoint:
+
+```bash
+http://localhost:8005/api/
+```
+
+Backend Repository:
+[SahyogSync Server](https://github.com/SahyogSync-OS/sahyogsync-server)
 
 ---
 
@@ -87,36 +138,68 @@ For developers looking to run the full stack locally, the official backend repos
 
 ```text
 src/
-├── components/     # Reusable UI components (Buttons, Modals, Navs)
-├── pages/          # Feature-specific page modules
-│   ├── admin/      # Platform moderation
-│   ├── auth/       # Login and Registration
-│   ├── ngo/        # NGO-specific dashboard and tools
-│   ├── public/     # Landing page and impact insights
-│   └── volunteer/  # Volunteer portal
-├── services/       # API integration and utility functions
-├── assets/         # Images, icons, and global styles
-└── App.jsx         # Main application routing and providers
+├── components/     # Reusable UI Components
+├── pages/
+│   ├── admin/      # Platform Moderation
+│   ├── auth/       # Authentication Flows
+│   ├── ngo/        # NGO Operations Dashboard
+│   ├── public/     # Landing & Public Insights
+│   └── volunteer/  # Volunteer Management
+├── services/       # API & Utility Services
+├── assets/         # Images, Icons & Styles
+└── App.jsx         # Root Application Component
 ```
+
+---
+
+## 🌐 Core Modules
+
+- NGO Dashboard
+- Volunteer Management
+- Inventory Monitoring
+- Campaign System
+- Public Impact Tracking
+- Authentication System
+- Geospatial Visualization
+
+---
+
+## 📌 Future Scope
+
+- AI-assisted operational dashboards
+- Live notification infrastructure
+- Advanced analytics & reporting
+- Real-time collaboration systems
+- Offline-first volunteer workflows
+- Predictive resource visualization
 
 ---
 
 ## 🤝 Contributing
 
-We welcome contributions from the community! Whether it's fixing a bug, suggesting a feature, or improving documentation, your help makes Sahyog Sync better for everyone.
+We welcome community contributions to improve SahyogSync.
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+### Contribution Workflow
+
+```bash
+git checkout -b feature/feature-name
+git commit -m "feat: implemented new feature"
+git push origin feature/feature-name
+```
+
+Then create a Pull Request.
 
 ---
 
-## 🔗 Ecosystem
-This client is powered by the **[Sahyog Sync Server](https://github.com/SahyogSync-OS/sahyogsync-server.git)**.
+## 🌐 Ecosystem
+
+Backend Repository:
+[SahyogSync Server](https://github.com/SahyogSync-OS/sahyogsync-server)
 
 ---
 
-**Built with ❤️ by the Sahyog Sync Team.**
+## ❤️ Contributors
 
+Built collaboratively by the SahyogSync Team.
+
+Engineering coordination systems for meaningful social impact.
