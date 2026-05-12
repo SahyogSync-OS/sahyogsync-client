@@ -77,7 +77,7 @@ Follow these steps to get the Sahyog Sync frontend running on your local machine
    Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ### Configuration
-The application is pre-configured to point to our production backend at `https://sahyogsync.onrender.com`. 
+The application is designed to connect to the Sahyog Sync Server. By default, it looks for the backend API at `http://localhost:8005/api/`. 
 
 For developers looking to run the full stack locally, the official backend repository can be found here: [sahyogsync-server](https://github.com/SahyogSync-OS/sahyogsync-server.git).
 
@@ -119,5 +119,4 @@ This client is powered by the **[Sahyog Sync Server](https://github.com/SahyogSy
 ---
 
 **Built with ❤️ by the Sahyog Sync Team.**
-**Deployment: [sahyog-sync-frontend.vercel.app](https://sahyog-sync-frontend.vercel.app/)**
 
